@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-class TestFileGenerator
+public class TestFileGenerator
 {
     private static readonly Random Random = new Random();
 
@@ -29,7 +29,7 @@ class TestFileGenerator
         return $"{number}. {str}";
     }
 
-    static void Main(string[] args)
+    public static void Main2()
     {
         string outputPath = "testfile.txt";
         long fileSizeInBytes = 10L * 1024 * 1024;

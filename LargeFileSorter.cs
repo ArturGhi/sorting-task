@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-class LargeFileSorter
+public class LargeFileSorter
 {
     public static void SortLargeFile(string inputFilePath, string outputFilePath, string tempDirectory)
     {
@@ -86,7 +86,7 @@ class LargeFileSorter
         }
     }
 
-    static void Main(string[] args)
+    public static void Main1()
     {
         string inputFilePath = "testfile.txt";
         string outputFilePath = "sortedfile.txt";
